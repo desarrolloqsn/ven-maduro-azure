@@ -47,7 +47,7 @@ export default function GrafosModelos(){
       {opciones}
     </Select>
     <div className='modelos-grafos'>
-    <div className='grafo-video-modelos'>
+    {/* <div className='grafo-video-modelos'>
     <Tooltip title="Click para ver el grafo">
         <div className='titulo-modelo'>Sentimientos</div>
     <a href={`https://qsngrafos.vercel.app/modelos/maduro/grafo_modelo-Sentimientos-${filtroFecha}.html`} target="_blank">
@@ -56,7 +56,7 @@ export default function GrafosModelos(){
     </div>
     </a>
     </Tooltip>
-    </div>
+    </div> */}
    
     <div className='grafo-video-modelos'>
     <Tooltip title="Click para ver el grafo">
